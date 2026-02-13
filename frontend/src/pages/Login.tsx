@@ -7,8 +7,8 @@ import { Trophy } from "lucide-react";
 export default function Login() {
   const { login } = useAuth();
   const nav = useNavigate();
-  const [email, setEmail] = useState("admin@local.com");
-  const [password, setPassword] = useState("Chocodonut22");
+  const [email, setEmail] = useState("nada");
+  const [password, setPassword] = useState("nada");
   const [err, setErr] = useState<string | null>(null);
 
   return (
@@ -51,7 +51,7 @@ export default function Login() {
         </Card>
 
         <div className="mt-4 text-xs text-slate-600">
-          Tip: el admin por defecto es <span className="text-slate-400">admin@local.com</span> / <span className="text-slate-400">Chocodonut22</span>.
+          Tip: el admin por defecto es <span className="text-slate-400">secreto</span> / <span className="text-slate-400">jodete</span>.
         </div>
       </div>
     </div>
