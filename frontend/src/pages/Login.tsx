@@ -7,8 +7,8 @@ import { Trophy } from "lucide-react";
 export default function Login() {
   const { login } = useAuth();
   const nav = useNavigate();
-  const [email, setEmail] = useState("admin@local.com");
-  const [password, setPassword] = useState("Chocodonut22");
+  const [email, setEmail] = useState("mail");
+  const [password, setPassword] = useState("contraseña");
   const [err, setErr] = useState<string | null>(null);
 
   return (
